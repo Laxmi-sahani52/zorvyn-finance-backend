@@ -35,6 +35,7 @@ node server.js
 (The server will run on http://localhost:3000.)
 
 **🧪 API Usage & Testing**
+
 Since this is a screening task, authentication is simulated via headers:
 
 **Header Key:** x-role

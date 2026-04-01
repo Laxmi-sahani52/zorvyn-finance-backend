@@ -1,42 +1,42 @@
-Finance Data Processing and Access Control Backend
+**Finance Data Processing and Access Control Backend**
+
 A robust Node.js backend built for financial record management, featuring Role-Based Access Control (RBAC) and data persistence.
 
-🚀 Features
-RBAC Authentication: Middleware-driven security using an x-role header to distinguish between admin and user permissions.
+**🚀 Features**
 
-Financial Records CRUD: Full ability to create, read, and manage financial data.
+**->RBAC Authentication:** Middleware-driven security using an x-role header to distinguish between admin and user permissions.
 
-Dashboard Analytics: Admin-only endpoint providing summarized totals of financial records grouped by type.
+**->Financial Records CRUD:** Full ability to create, read, and manage financial data.
 
-Portable Database: Uses SQLite with Sequelize ORM for a zero-setup review experience.
+**->Dashboard Analytics:** Admin-only endpoint providing summarized totals of financial records grouped by type.
 
-🛠️ Tech Stack
-Runtime: Node.js
+**->Portable Database:** Uses SQLite with Sequelize ORM for a zero-setup review experience.
 
-Framework: Express.js
+**🛠️ Tech Stack**
 
-ORM: Sequelize
+**Runtime:** Node.js
 
-Database: SQLite
+**Framework:** Express.js
 
-⚙️ Setup Instructions
-Clone the repository:
+**ORM:** Sequelize
 
-Bash
+**Database:** SQLite
+
+**⚙️ Setup Instructions**
+
+1.**Clone the repository:**
 git clone https://github.com/Laxmi-sahani52/zorvyn-finance-backend.git
-Install dependencies:
 
-Bash
+2.**Install dependencies:**
 npm install
-Start the server:
 
-Bash
+3.**Start the server:**
 node server.js
-The server will run on http://localhost:3000.
+(The server will run on http://localhost:3000.)
 
-🧪 API Usage & Testing
+**🧪 API Usage & Testing**
 Since this is a screening task, authentication is simulated via headers:
 
-Header Key: x-role
+**Header Key:** x-role
 
-Values: admin (to create/view dashboard) or user (read-only).
+**Values:** admin (to create/view dashboard) or user (read-only).
